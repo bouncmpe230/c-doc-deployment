@@ -1,0 +1,31 @@
+PROJECT_NAME           = "My C Project"
+PROJECT_NUMBER         = "1.0"
+OUTPUT_DIRECTORY      = docs
+GENERATE_HTML         = YES
+GENERATE_LATEX        = NO
+USE_MDFILE_AS_MAINPAGE = README.md
+EXTRACT_ALL           = YES
+INPUT                 = src/
+RECURSIVE             = YES
+FILE_PATTERNS         = *.c *.h
+QUIET                 = NO
+WARN_IF_UNDOCUMENTED  = YES
+GENERATE_TREEVIEW     = YES
+
+# HTML Configuration
+HTML_OUTPUT           = html
+HTML_FILE_EXTENSION   = .html
+GENERATE_HTMLHELP     = NO
+GENERATE_DOCSET       = NO
+ENABLE_PREPROCESSING  = YES
+MACRO_EXPANSION       = YES
+EXPAND_ONLY_PREDEF    = NO
+SEARCHENGINE          = YES
+
+# Source Browser
+SOURCE_BROWSER        = YES
+INLINE_SOURCES        = YES
+REFERENCED_BY_RELATION = YES
+REFERENCES_RELATION   = YES
+CALL_GRAPH            = YES
+CALLER_GRAPH          = YES
